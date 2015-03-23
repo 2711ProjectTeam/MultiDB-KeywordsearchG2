@@ -15,17 +15,18 @@
 		<div id="header">
 			<div id="header-topbar">
 			    <div id="header-menu">
+			    Search again: 
 					<page:applyDecorator name="header_search">
 						<%@ include file="/WEB-INF/views/includes/search.jsp" %>
 					</page:applyDecorator>
-					<%@ include file="/WEB-INF/views/includes/navigation.jsp" %>
+					
 				</div>
 			</div>
-			<a href="/" id="logo"><img src="<c:url value="/images/logo.png"/>" /></a>
+			<div class="headeryu">
+			</div>
 		</div>
 	    <div id="content">
             <decorator:body />
 	    </div>
-	    <%@ include file="/WEB-INF/views/includes/footer.jsp" %>
 	</body>
 </html>

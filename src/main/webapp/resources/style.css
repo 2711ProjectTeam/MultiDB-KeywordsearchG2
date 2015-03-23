@@ -2,6 +2,7 @@
 @import url(typography.css);
 @import url(forms.css);
 @import url(grid.css);
+@import url(bootstrap.css)
 
 * {
   outline-style: none;
@@ -10,7 +11,7 @@
 body { 
 	margin:0; 
 	padding:0; 
-	background : #010100; 
+	background : #ffffff; 
 }
 
 a img { border:0; }
@@ -19,24 +20,38 @@ a img { border:0; }
  * MAIN COMPONENTS
  */
 
+.headeryu{
+	height : 50px;
+	background-color: #81C7D4 ;
+}
+.nav{
+	height:50px;
+	background-color:#81C7D4;
+}
+.jumbotron{
+	paddiing-left:100px;
+	height: 50%;
+}
+
 #header {
-	background: url(../images/header-curtain.png) repeat-y bottom center #010100;	
-  border-bottom: 1px solid #5C5C45;
+	background: #81C7D4;	
+  	border-bottom: 1px solid #5C5C45;
 }
 
 #logo img {
   padding: 10px 10px 0;
 }
 
+
 #header-topbar {
-	height: 49px;
+	height: 0px;
 	padding: 0 0 0 10px;
-	background: url(../images/filmroll-horizontal.png) repeat-x bottom left transparent;	
+		
 }
 
 #header-splash {
-  text-align:center;
-  background: url(../images/header-splash-bg.png) repeat-x bottom center;
+	height:0px;
+  
 }
 
 #logo-splash {
@@ -46,16 +61,17 @@ a img { border:0; }
 
 
 #header-menu {
-	float: right;
+	float: left;
   color: #DDDDDD;
   height:28px;
-  background:#0b0f07;
+  background:#81C7D4;
   padding: 10px 10px;
 }
 
 .search {
   float:left;
   padding:0 10px;
+  background-color:#81C7D4;
 }
 
 .navigation {
